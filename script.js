@@ -1,7 +1,7 @@
 var	mde = 'l',
 	$Q = {
 		pool: {
-			nme: 'C3Pool',										//also sets the cookie prefix
+			nme: 'XMR.SOLOPOOL.US',										//also sets the cookie prefix
 		},
 		clr: {
 			main:		'208b8b',									//C1
@@ -16,7 +16,7 @@ var	mde = 'l',
 			port:	18081,
 			reg:	/^[4|8]{1}([A-Za-z0-9]{105}|[A-Za-z0-9]{94})$/	//address regex
 		},
-		api:		'https://api.c3pool.com/',
+		api:		'https://xmr.solopool.us/api',
 		fiat_name:	'usd',
 		fiat_symbol:	'$',
 		news:		true,												//enable news (motd) alerts on homepage
